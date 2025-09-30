@@ -1,0 +1,16 @@
+{
+	"$schema": "https://unpkg.com/jsrepo@2.5.0/schemas/project-config.json",
+	"repos": ["https://vue-bits.dev/ui"],
+	"includeTests": false,
+	"includeDocs": false,
+	"watermark": true,
+	"formatter": "prettier",
+	"configFiles": {},
+	"paths": {
+		"*": "./app/blocks",
+		"Animations": "./app/blocks/Animations",
+		"Backgrounds": "./app/blocks/Backgrounds",
+		"Components": "./app/blocks/Components",
+		"TextAnimations": "./app/blocks/TextAnimations"
+	}
+}
