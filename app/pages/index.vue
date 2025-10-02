@@ -25,6 +25,7 @@ import mainComponent from "~/components/mainComponent.vue";
 <style scoped>
 .particles-container {
 	width: calc(100vw - 15px);
+	margin: 0 auto;
 	min-height: 100vh;
 	position: relative;
 	overflow: hidden;
