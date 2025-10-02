@@ -139,8 +139,8 @@ onMounted(() => {});
 			<ul v-if="com.showMore" class="list-disc ml-6! mt-2.5!">
 				<li v-for="(resp, index) in com.responsibility" :key="index" class="text-[#a1a1a1]">{{ resp }}</li>
 			</ul>
-			<p v-if="!com.showMore" @click="toggleResponsibility(com.id)" class="mt-4! text-[#a1a1a1]">Show my responsibility</p>
-			<p v-else class="mt-4!" @click="toggleResponsibility(com.id)">Hide it</p>
+			<p v-if="!com.showMore" @click="toggleResponsibility(com.id)" class="mt-4! text-[#a1a1a1] cursor-pointer">Show my responsibilities</p>
+			<p v-else class="mt-4! cursor-pointer" @click="toggleResponsibility(com.id)">Hide it</p>
 
 			<ul class="mt-6! flex flex-wrap gap-1.5">
 				<li v-for="(skill, index) in com.technologies" :key="index" class="bg-[#121212] rounded-2xl px-2.5! py-0.5! text-sm">{{ skill }}</li>
