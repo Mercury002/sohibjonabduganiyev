@@ -1,6 +1,14 @@
 <script setup>
 import Particles from "~/blocks/Backgrounds/Particles/Particles.vue";
 import mainComponent from "~/components/mainComponent.vue";
+
+useSeoMeta({
+	title: "Sohibjon Abduganiyev",
+	ogTitle: "Sohibjon Abduganiyev",
+	description: "Frontend Developer with 4+ years of experience specializing in Vue.js, TypeScript, and modern web technologies",
+	ogDescription: "Frontend Developer with 4+ years of experience specializing in Vue.js, TypeScript, and modern web technologies",
+	ogImage: "../assets/imgs/profile.jpg",
+});
 </script>
 <template>
 	<div class="particles-container">
