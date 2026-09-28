@@ -1,5 +1,4 @@
 <script setup>
-import Particles from "~/blocks/Backgrounds/Particles/Particles.vue";
 import mainComponent from "~/components/mainComponent.vue";
 
 useSeoMeta({
